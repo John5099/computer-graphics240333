@@ -13,7 +13,7 @@ void main()
     printf("enter x2,y2");
     scanf("%d%d", &x2, &y2);
 
-    initgraph(&gd, &gm, "c:\\turboc3\\BGI");
+    initgraph(&gd, &gm, "");
 
     dx = x2 - x1;
     dy = y2 - y1;
@@ -48,4 +48,5 @@ float round(float a)
 {
     int b = a + 0.5;
     return b;
+
 }
