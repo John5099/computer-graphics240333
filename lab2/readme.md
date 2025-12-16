@@ -1,5 +1,5 @@
-algorithm
-  BRESENHAM’S LINE DRAWING ALGORITHM
+
+BRESENHAM’S LINE DRAWING ALGORITHM
   1. Input the two line end-points, storing the left end-point in (x0, y0)
   2. Plot the point (x0, y0)
   3. Calculate the constants Δx, Δy, 2Δy, and (2Δy - 2Δx) and get the first value for the decision
