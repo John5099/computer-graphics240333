@@ -29,7 +29,6 @@ int main() {
     x4 = x2 * sx;
     y4 = y2 * sy;
 
-    
     setcolor(7); 
     line((int)x3, (int)y3, (int)x4, (int)y4);
     outtextxy((int)x4 + 5, (int)y4 + 5, "Scaled line");
